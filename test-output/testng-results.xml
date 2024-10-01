@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-26T15:42:47 IST" name="Default suite" finished-at="2024-09-26T15:43:13 IST" duration-ms="25483">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Selenium.Cucumber.E2ETestRunner@2925bf5b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-09-26T15:42:47 IST" name="Default test" finished-at="2024-09-26T15:43:13 IST" duration-ms="25483">
+      <class name="Selenium.Cucumber.E2ETestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Selenium.Cucumber.E2ETestRunner@2925bf5b]" started-at="2024-09-26T15:42:47 IST" name="setUpClass" finished-at="2024-09-26T15:42:48 IST" duration-ms="1158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4f3e7344]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Selenium.Cucumber.E2ETestRunner@2925bf5b]" started-at="2024-09-26T15:42:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-26T15:42:49 IST" duration-ms="247" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["positive E2E Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["E2E Test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "javaSeleniumFreamwork.freamwork.LoginPage.loginViaUserDetails(String, String)" because "this.lop" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "javaSeleniumFreamwork.freamwork.LoginPage.loginViaUserDetails(String, String)" because "this.lop" is null
+at Selenium.Step_Defination.E2ETest.login(E2ETest.java:43)
+at ✽.login with username Sam@1.com and password 12345(file:///C:/Users/shubh/eclipse-workspace/freamwork/src/test/java/Selenium/Cucumber/FirstTestcase.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Selenium.Cucumber.E2ETestRunner@2925bf5b]" started-at="2024-09-26T15:42:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-26T15:43:04 IST" duration-ms="15126" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verfyinvalid login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validata invalid test case"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "this.driver" is null
+at Selenium.Step_Defination.invalidTestCase.vary(invalidTestCase.java:15)
+at ✽.I verify details valid or not(file:///C:/Users/shubh/eclipse-workspace/freamwork/src/test/java/Selenium/Cucumber/secondTest.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Selenium.Cucumber.E2ETestRunner@2925bf5b]" started-at="2024-09-26T15:43:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-26T15:43:13 IST" duration-ms="8773" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verfyinvalid login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validata invalid test case"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "this.driver" is null
+at Selenium.Step_Defination.invalidTestCase.vary(invalidTestCase.java:15)
+at ✽.I verify details valid or not(file:///C:/Users/shubh/eclipse-workspace/freamwork/src/test/java/Selenium/Cucumber/secondTest.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Selenium.Cucumber.E2ETestRunner@2925bf5b]" started-at="2024-09-26T15:43:13 IST" name="tearDownClass" finished-at="2024-09-26T15:43:13 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Selenium.Cucumber.E2ETestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
